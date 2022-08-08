@@ -1,0 +1,29 @@
+form {
+  background-color: beige;
+  border: black solid;
+  margin: 0 auto;
+  width: 450px;
+
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+#btn-container {
+  text-align: right;
+}
+
+#destino-label {
+  padding-top: 30px;
+
+}
+
+#text-area {
+  width: 100%;
+}
+
+#text-area-label {
+  text-align: center;
+  size: 100%;
+  /* border: black solid; */
+}
