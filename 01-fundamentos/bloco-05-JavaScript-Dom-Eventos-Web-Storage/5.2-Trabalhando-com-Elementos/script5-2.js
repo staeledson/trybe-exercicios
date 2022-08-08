@@ -54,3 +54,23 @@ for (let n in listaNumerosExtenso) {
 
 //Step 9 🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
 
+for(let index = 0; index <3; index += 1) {
+let tagH3 = document.createElement('h3');
+tagMain.appendChild(tagH3);
+tagH3.innerHTML = tagH3 + [index];
+
+}
+
+/////////////////////////////////////////////////////////
+
+// 🚀 Adicione a classe title na tag h1 criada;
+
+tagH1.className = 'title';
+
+// 🚀 Adicione a classe description nas 3 tags h3 criadas;
+
+
+// 🚀 Remova a section criado no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
+// 🚀 Centralize a section criado no passo 6 (aquele que possui a classe right-content). Dica: para centralizar, basta configurar o margin-right: auto da section;
+// 🚀 Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content) para a cor verde;
+// 🚀 Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
