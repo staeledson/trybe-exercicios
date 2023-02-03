@@ -5,6 +5,7 @@
   "main": "bmi.js",
   "scripts": {
     "bmi": "node bmi.js",
+    "simp":"node simpsons.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
