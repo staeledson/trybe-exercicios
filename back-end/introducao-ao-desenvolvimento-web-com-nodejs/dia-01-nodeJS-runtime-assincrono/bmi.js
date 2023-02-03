@@ -1,6 +1,12 @@
-function calcularBmi(weigth, height) {
-  const IMC = weigth / (height*height);
+const readline = require('readline-sync');
+
+const weigth = readline.question('Qual seu peso em kg?: ');
+const height = readline.question('Qual sua altura em m?: ');
+
+
+function calcularBmi(w, h) {
+  const IMC = w / (h*h);
   return IMC;
 }
 
-console.log(`Seu IMC é: ${calcularBmi(82, 1.68)}`);
+console.log(`Seu IMC é: ${calcularBmi(weigth, height)}`);
